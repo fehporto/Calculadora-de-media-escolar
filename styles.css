@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(99, 83, 238);
+}
+
+
+.container{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+
+.form{
+    text-align: center;
+
+}
+
+
+form{
+    width: 30%;
+    height: auto;
+    padding: 40px;
+    margin: 40px auto 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #000
+}
+
+Form input{
+    display: block;
+    width: 100%;
+    padding: 1em;
+    margin-top: 15px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .btn{
+      margin-top:40px;
+      margin-left: 40%;
+      border-radius: 5px;
+      box-shadow: 0 0 10px blue;
+      ;
+      
+
+
+  }

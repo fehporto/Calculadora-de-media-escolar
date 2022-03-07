@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <title>Calculadora de Resultados se passou de ano</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container" >
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <h1>Calculadora de média</h1>
+    </header>
+    <form>
+        <label for="nota1">Nota do primeiro Bimestre:</label>
+        <input type ="number" step="0.1" id="nota1" name="nota1" min="0" max="10" value = 0><br>
+        <label for="nota2">Nota do segundo Bimestre:</label>
+        <input type ="number" step="0.1" id="nota2" name="nota2" min="0" max="10" value = 0><br>
+        <label for="nota3">Nota do terceiro Bimestre:</label>
+        <input type ="number" step="0.1" id="nota3" name="nota3" min="0" max="10" value = 0><br>
+        <label for="nota4">Nota do quarto Bimestre:</label>
+        <input type ="number" step="0.1" id="nota4" name="nota4" min="0" max="10" value = 0><br>
+        <button class="btn" type="button"  onclick="calcularmedia()"> Calcular média </button>
+        
+        <h2 class="output"> Sua nota final é: <span id ="nota-final"></span> <br> <span id = "resultado"></span> </h2>
+      </form>
+</div>
+</body>
+</html>
